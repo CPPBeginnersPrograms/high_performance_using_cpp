@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="LaunchTerminalSettingsDialog">
+		<item value="CodeMix" key="terminalLabel"/>
+		<section name="SettingsPanelControl">
+			<section name="CodeMix">
+			</section>
+		</section>
+	</section>
+</section>

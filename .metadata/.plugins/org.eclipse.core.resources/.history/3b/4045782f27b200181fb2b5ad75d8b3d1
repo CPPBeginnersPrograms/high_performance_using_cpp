@@ -1,0 +1,30 @@
+/*
+ * Thread.cpp
+ *
+ *  Created on: Sep 6, 2018
+ *      Author: raswantkoushikpeesapati
+ */
+
+#include "Thread.h"
+
+mutex Thread::locker;
+condition_variable Thread::untilReady;
+bool Thread::Ready = false;
+queue<int>Thread::app;
+
+Thread::Thread(ThreadType typeofthread) {
+	// TODO Auto-generated constructor stub
+	this->typeofthread = typeofthread;
+	(typeofthread == PRODUCER) ? name = "PRODUCER" : name = "CONSUMER";
+	stopped = false;
+	pthread = NULL;
+}
+
+Thread::~Thread() {
+	// TODO Auto-generated destructor stub
+	delete pthread;
+	pthread = NULL;
+}
+
+
+

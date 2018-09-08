@@ -1,0 +1,16 @@
+18:56:50 **** Incremental Build of configuration Debug for project high performance app deadlock creating and resolving ****
+make all 
+Building file: ../Thread.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++17 -lpthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Thread.d" -MT"Thread.o" -o "Thread.o" "../Thread.cpp"
+clang: warning: -lpthread: 'linker' input unused [-Wunused-command-line-argument]
+Finished building: ../Thread.cpp
+ 
+Building target: high performance app deadlock creating and resolving
+Invoking: MacOS X C++ Linker
+g++  -o "high performance app deadlock creating and resolving"  ./Thread.o ./main.o   
+Finished building target: high performance app deadlock creating and resolving
+ 
+
+18:56:51 Build Finished (took 729ms)
+

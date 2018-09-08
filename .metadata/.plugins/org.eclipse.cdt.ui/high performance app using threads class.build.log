@@ -1,0 +1,16 @@
+13:41:14 **** Incremental Build of configuration Debug for project high performance app using threads class ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++17 -lpthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+clang: warning: -lpthread: 'linker' input unused [-Wunused-command-line-argument]
+Finished building: ../main.cpp
+ 
+Building target: high performance app using threads class
+Invoking: MacOS X C++ Linker
+g++  -o "high performance app using threads class"  ./main.o   
+Finished building target: high performance app using threads class
+ 
+
+13:41:15 Build Finished (took 614ms)
+

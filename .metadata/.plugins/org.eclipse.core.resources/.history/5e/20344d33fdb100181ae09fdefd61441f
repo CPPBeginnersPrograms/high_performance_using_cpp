@@ -1,0 +1,17 @@
+/*
+ * Thread.h
+ *
+ *  Created on: Sep 6, 2018
+ *      Author: raswantkoushikpeesapati
+ */
+
+#ifndef THREAD_H_
+#define THREAD_H_
+
+class Thread {
+public:
+	Thread();
+	~Thread();
+};
+
+#endif /* THREAD_H_ */

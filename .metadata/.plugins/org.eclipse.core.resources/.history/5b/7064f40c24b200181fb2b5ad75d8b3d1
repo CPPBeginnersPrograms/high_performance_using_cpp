@@ -1,0 +1,30 @@
+/*
+ * Thread.h
+ *
+ *  Created on: Sep 6, 2018
+ *      Author: raswantkoushikpeesapati
+ */
+
+#ifndef THREAD_H_
+#define THREAD_H_
+#include<string>
+#include<iostream>
+#include<thread>
+#include<queue>
+#include<mutex>
+#include<condition_variable>
+
+
+using namespace std;
+
+
+class Thread {
+private:
+	static mutex locker;
+
+public:
+	Thread();
+	~Thread();
+};
+
+#endif /* THREAD_H_ */
