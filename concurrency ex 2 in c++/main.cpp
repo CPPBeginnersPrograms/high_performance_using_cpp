@@ -24,7 +24,6 @@ int main()
 	async(launch::async, sayHello, move(promobj));
 	cout<<futureobj.get()<<endl;
 
-	cout<<"delete this";
 
 	return 0;
 }
