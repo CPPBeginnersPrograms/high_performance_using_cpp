@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>packaged_task with thread library</name>
+	<name>concurrency packaged_task with thread library</name>
 	<comment></comment>
 	<projects>
 	</projects>
