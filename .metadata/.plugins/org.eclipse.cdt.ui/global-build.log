@@ -1,15 +1,15 @@
-16:58:44 **** Build of configuration Debug for project packaged_task with thread library ****
+17:31:43 **** Incremental Build of configuration Debug for project concurrency passing exception by future object ****
 make all 
 Building file: ../main.cpp
 Invoking: GCC C++ Compiler
 g++ -std=c++17 -pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
 Finished building: ../main.cpp
  
-Building target: packaged_task with thread library
+Building target: concurrency passing exception by future object
 Invoking: MacOS X C++ Linker
-g++  -o "packaged_task with thread library"  ./main.o   
-Finished building target: packaged_task with thread library
+g++  -o "concurrency passing exception by future object"  ./main.o   
+Finished building target: concurrency passing exception by future object
  
-16:58:51 **** Incremental Build of configuration Debug for project packaged_task with thread library ****
+17:31:49 **** Incremental Build of configuration Debug for project concurrency passing exception by future object ****
 make all 
 make: Nothing to be done for `all'.
