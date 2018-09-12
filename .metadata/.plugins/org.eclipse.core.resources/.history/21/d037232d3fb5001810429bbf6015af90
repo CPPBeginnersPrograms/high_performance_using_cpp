@@ -1,0 +1,23 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Sep 10, 2018
+ *      Author: raswantkoushikpeesapati
+ */
+
+#include<iostream>
+#include<functional>
+#include<future>
+
+using namespace std;
+
+int add(int num, int num1)
+{
+	return num + num1;
+}
+
+int main(){
+
+	packaged_task<int>addTask(bind(add,15,34));
+}
+

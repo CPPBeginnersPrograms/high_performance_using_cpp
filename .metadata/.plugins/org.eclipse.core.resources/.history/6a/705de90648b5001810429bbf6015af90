@@ -1,0 +1,18 @@
+/*
+ * Maths.cpp
+ *
+ *  Created on: Sep 10, 2018
+ *      Author: raswantkoushikpeesapati
+ */
+
+#include "Maths.h"
+
+Maths::Maths() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Maths::~Maths() {
+	// TODO Auto-generated destructor stub
+}
+

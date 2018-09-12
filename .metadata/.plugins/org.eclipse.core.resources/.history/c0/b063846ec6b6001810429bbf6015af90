@@ -1,0 +1,19 @@
+all: mathtest.cpp
+		g++ -g -wall -o output mathtest.cpp
+clean: 
+		$(RM) output
+		
+CC = g++
+CFLAGS = -std=c++17 -g -Wall
+TARGET = output
+
+
+all: $(TARGET)
+$(TARGET):$(TARGET).cpp
+	$(CC) $(CFLAGS) -o $(TARGET) $(TARGET).c
+	
+clean:
+		$(RM) $(TARGET)
+
+
+

@@ -1,0 +1,30 @@
+SRC = src/Maths.cpp test/mathtest.cpp
+
+OBJS = Maths.o mathtest.o
+
+CXXFLAGS = -std=c++14
+
+LIBS = -pthread libgtest.a
+
+INC = -I TDD using googletest/googletesting \
+	  -I src \
+	  -I test
+	  
+	  
+EXE = calc.exe
+
+all: $(OBJS)
+	 g++ -o $(EXE) $(CFLAGS) $(OBJS) $(LIBS)
+	 
+Maths.o: src/Maths.cpp
+	g++ -c -o Maths.o src/Maths.cpp
+	
+mathtest.o: test/mathtest.cpp
+	g++ -c -o mathtest.o test/mathtest.cpp $(INC)
+	
+.PHONY: clean
+
+clean:
+	rm -f *.o *.exe
+   
+	  

@@ -1,0 +1,22 @@
+/*
+ * mathtest.cpp
+ *
+ *  Created on: Sep 10, 2018
+ *      Author: raswantkoushikpeesapati
+ */
+
+
+
+#include<gtest/gtest.h>
+#include "Maths.h"
+
+TEST(mathtest, testAddition) // (test module name, test case name)
+{
+	Maths math;
+
+	int expectedResult = 34;
+	int actualResult = math.add(12,22);
+
+	EXPECT_EQ ( expectedResult, actualResult);
+
+}

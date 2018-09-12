@@ -1,0 +1,18 @@
+/*
+ * Maths.h
+ *
+ *  Created on: Sep 10, 2018
+ *      Author: raswantkoushikpeesapati
+ */
+
+#ifndef SRC_MATHS_H_
+#define SRC_MATHS_H_
+
+class Maths {
+public:
+	Maths();
+	~Maths();
+	int add(int ,int);
+};
+
+#endif /* SRC_MATHS_H_ */
