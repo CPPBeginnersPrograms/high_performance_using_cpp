@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;high performance bank app refactor/Thread.cpp&apos; to &apos;Threads.cpp&apos;" description="Rename resource &apos;Thread.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Thread.cpp" name="Threads.cpp" stamp="1536258656157" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;high performance bank app refactor/Thread.h&apos; to &apos;Threads.h&apos;" description="Rename resource &apos;Thread.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Thread.h" name="Threads.h" stamp="1536258671238" updateReferences="true"/>
-</session>
