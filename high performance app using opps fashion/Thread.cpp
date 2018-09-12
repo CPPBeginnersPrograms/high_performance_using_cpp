@@ -30,7 +30,6 @@ void Thread::run(){
 
 		this_thread::sleep_for(chrono::seconds(1));
 	}
-
 	cout<<" \n Thread "<< this_thread::get_id()<<" stopped as requested "<<endl;
 	return;
 	locker.unlock();

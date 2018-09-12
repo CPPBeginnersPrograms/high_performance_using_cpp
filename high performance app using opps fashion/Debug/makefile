@@ -43,7 +43,7 @@ all: high\ performance\ app\ using\ opps\ fashion
 high\ performance\ app\ using\ opps\ fashion: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MacOS X C++ Linker'
-	g++  -o "high performance app using opps fashion" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -std=c++17  -o "high performance app using opps fashion" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

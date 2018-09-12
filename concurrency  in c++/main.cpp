@@ -14,8 +14,9 @@ using namespace std;
 void sayHello();
 
 int main()
-{
-	future<void> futureobj = async (launch::async, sayHello);
+{								//(launch::async, sayHello) // it lets the async obj launch the function in separate thread.
+	future<void> futureobj = async (launch::deferred, sayHello); // it lets the async obj launch the method or
+																//function without creating a separate thread.
 	futureobj.wait();
 
 	return 0;
